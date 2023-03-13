@@ -32,8 +32,9 @@ void student::input()
 void student::calculatePercentage()
 {
     total = marks1 + marks2 + marks3;
+      /* if we enter full formula of percentage there will be no result  */
 
-    percentage =  (total / 300) * 100;
+    percentage = total / 3;
 };
 
 void student::display()
