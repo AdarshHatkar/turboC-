@@ -5,7 +5,6 @@
 
 class student
 {
-
 public:
     int roll_no, marks1, marks2, marks3, total;
     float percentage;
