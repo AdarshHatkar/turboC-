@@ -1,6 +1,6 @@
-/* Write a program in C++ to demonstrate Class and Object */
+/*Practical No:1  Write a program in C++ to demonstrate Class and Object (students ) */
 
-#include <iostream.h>
+#include<iostream.h>
 #include<conio.h>
 
 class student
@@ -49,10 +49,9 @@ void student::display()
 };
 
 void main()
-{                clrscr();
+{   clrscr();
     // created an object
     student obj1;
-
     // calling the methods using object
     obj1.input();
     obj1.calculatePercentage();
