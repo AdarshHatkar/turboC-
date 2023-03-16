@@ -3,39 +3,40 @@
 #include <iostream.h>
 #include <conio.h>
 
-class Adarsh
+class MyClass
 {
 public:
-    Adarsh()
+    MyClass()
     {
 
-	cout << "Default constructor called \n";
+        cout << "Default constructor called \n";
     }
 
-    Adarsh(int a)
+    MyClass(int a)
     {
 
-	cout << "Parameterize constructor called \n";
+        cout << "Parameterize constructor called \n";
     }
 
-    Adarsh(Adarsh &obj)
+    MyClass(MyClass &obj)
     {
 
-	cout << "Copy constructor called\n";
+        cout << "Copy constructor called\n";
     }
 
-    ~Adarsh()
+    ~MyClass()
     {
 
-	cout << "Destructor called \n";
+        cout << "Destructor called \n";
     }
 };
 
 int main()
-{   clrscr();
-    Adarsh obj_1;
-    Adarsh obj_2(52);
-    Adarsh obj_3(obj_1);
+{
+    clrscr();
+    MyClass obj_1;
+    MyClass obj_2(52);
+    MyClass obj_3(obj_1);
     getch();
     return 0;
 }

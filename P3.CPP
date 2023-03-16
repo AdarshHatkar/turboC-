@@ -17,9 +17,9 @@ inline int cube(int n)
 int main()
 { clrscr();
     int number = 5;
-    cout << "\n square of " << number << " is " << square(number);
+    cout << "\n Square of " << number << " is " << square(number);
 
-    cout << "\n cube of " << number << " is " << cube(number);
+    cout << "\n Cube of " << number << " is " << cube(number);
     getch();
     return 0;
 }

@@ -5,19 +5,19 @@
 
 void add(int a, int b)
 {
-    cout << "\n sum of two int: " << a + b;
+    cout << "\n Sum of two int: " << a + b;
 }
 void add(int a, int b, int c)
 {
-    cout << "\n sum of three int: " << a + b + c;
+    cout << "\n Sum of three int: " << a + b + c;
 }
 void add(double a, double b)
 {
-    cout << "\n sum of two double: " << a + b ;
+    cout << "\n Sum of two double: " << a + b ;
 }
 void add(float a, float b)
 {
-    cout << "\n sum of two float: " << a + b;
+    cout << "\n Sum of two float: " << a + b;
 }
 
 int main()
