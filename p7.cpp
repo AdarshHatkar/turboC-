@@ -1,6 +1,6 @@
 /*Practical No:6 Write a program in C++ for Binary operator overloading. */
 
-#include <iostream>
+#include <iostream.h>
 #include<conio.h>
 class Complex
 {
